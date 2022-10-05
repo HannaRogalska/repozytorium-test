@@ -1,3 +1,31 @@
-body{
-    background-color: teal;
+body {
+    background-color: rgb(212, 197, 226);
 }
+:root{
+    --color1: rgb(49, 14, 222);
+    --color2: orange;
+}
+
+div{
+    background-color: var(--color2);
+
+}
+.social-links .link {
+  color: rgb(224, 11, 128);
+  
+}
+.social-links .link:focus {
+    color: orange;
+  }
+  
+  .social-links .link:active {
+    color: red;
+  }
+  
+  .social-links .link:visited {
+    color: green;
+  }
+  
+  footer{
+    background-color: bisque;
+  }
