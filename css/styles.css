@@ -186,6 +186,23 @@ margin-top: 150px;
   .social-links .link:visited {
     color: green;
   }
+  .mains{
+    height: 500px;
+    background-image: url(https://apod.nasa.gov/apod/image/2110/LucyLaunchB_Kraus_2048.jpg);
+    animation: background 30s linear infinite;
+    
+  }
+  @keyframes background{
+    0%{
+      background-position: 0% 0%;
+    }
+    50%{
+      background-position: 100% 0%;
+    }
+    100%{
+      background-position: 0% 0%;
+    }
+  }
   
   footer{
     background-color: bisque;
